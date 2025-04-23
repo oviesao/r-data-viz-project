@@ -1,0 +1,21 @@
+---
+title: "Global CO₂ Emissions Analysis"
+author: "Oviesa Oboh"
+output: html_document
+---
+
+## 📊 Project Overview
+
+This report analyzes the **Top 10 countries by CO₂ emissions** and visualizes the data through a bar chart using R.
+
+## 🔧 Data
+
+The dataset used contains information on CO₂ emissions from various countries. Below is a snapshot of the data:
+
+```{r}
+# Load necessary libraries
+library(tidyverse)
+
+# Load the dataset
+data <- read.csv("data/emissions.csv")
+head(data)
